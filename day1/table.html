@@ -31,6 +31,14 @@
         table.table1 div{
             background-color: #639aa1;
         }
+
+        .floatingTable {
+            border-spacing: 10px;
+        }
+
+        .floatingTable td {
+            border: 1px #dedede solid;
+        }
     </style>
 </head>
 <body>
@@ -77,10 +85,13 @@
     <table class="table2" width=100%>
         <tr>
             <td align=center>
-                <table border="1" width=300>
+                <table class="floatingTable" width=300>
                     <tr>
                         <td align=center>
                             this is centered table
+                        </td>
+                        <td align=center>
+                            this is second colomn of centered table
                         </td>
                     </tr>
                 </table>
