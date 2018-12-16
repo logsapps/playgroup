@@ -20,7 +20,12 @@
         }
 
         .table1 {
-            
+            width: 600px;
+            margin-left: 150px;
+        }
+
+        .table1 td {
+            background-color: #283e4a;
         }
 
         table.table1 div{
@@ -30,7 +35,7 @@
 </head>
 <body>
     <div style="width: 200px;">ini div atas</div>
-    <table class="table1" border="1" width=100%>
+    <table class="table1" border="1">
         <!-- Start Header -->
         <tr>
             <td colspan="3">Header</td>
@@ -69,31 +74,17 @@
         <!-- End Footer -->
     </table>
     <table class="table2" border="1" width=100%>
-        <!-- Start Header -->
         <tr>
-            <td colspan="3">Header</td>
-        </tr>
-        <!-- End Header -->
-
-        <!-- Start Body -->
-        <tr height=300>
-            <td>
-                <div class="div1">ini div 1</div>
-                <div class="div2">ini div 2</div>
-                <div>ini div 3</div>
+            <td align=center>
+                <table border="1" width=300>
+                    <tr>
+                        <td>
+                            ini td
+                        </td>
+                    </tr>
+                </table>
             </td>
-            <td>
-                <input type="text">
-            </td>
-            <td>col 2.3</td>
         </tr>
-        <!-- End Body -->
-
-        <!-- Start Footer -->
-        <tr>
-            <td colspan="3">footer</td>
-        </tr>
-        <!-- End Footer -->
     </table>
 </body>
 </html>
